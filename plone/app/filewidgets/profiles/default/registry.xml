@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<registry>
+
+  <records prefix="plone.resources/imagesloaded"
+            interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+      <value key="js">++plone++filewidgets/components/imagesloaded.pkgd.min.js</value>
+  </records>
+
+  <records prefix="plone.resources/jcrop"
+            interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+      <value key="js">++plone++filewidgets/components/Jcrop/jquery.Jcrop.min.js</value>
+  </records>
+
+  <records prefix="plone.resources/plone-patterns-imageinput"
+            interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+      <value key="js">++plone++mockup/imageinput/pattern.js</value>
+  </records>
+
+  <records prefix="plone.bundles/filewidgets"
+            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
+    <value key="resources">
+      <element>filewidgets</element>
+    </value>
+    <value key="enabled">True</value>
+    <value key="jscompilation">++plone++imageinput/filewidgets-compiled.min.js</value>
+    <value key="csscompilation">++plone++static/filewidgets-compiled.css</value>
+    <value key="last_compilation">2015-05-01 00:00:00</value>
+  </records>
+
+</registry>

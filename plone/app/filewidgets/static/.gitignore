@@ -1,0 +1,15 @@
+components/Jcrop/.bower.json
+components/Jcrop/MIT-LICENSE.txt
+components/Jcrop/README.md
+components/Jcrop/css/
+components/Jcrop/demos/
+components/Jcrop/index.html
+components/Jcrop/js/jquery.Jcrop.js
+components/Jcrop/js/jquery.color.js
+components/Jcrop/js/jquery.min.js
+components/imagesloaded/.bower.json
+components/imagesloaded/Gruntfile.js
+components/imagesloaded/README.md
+components/imagesloaded/bower.json
+components/imagesloaded/imagesloaded.js
+components/imagesloaded/imagesloaded.pkgd.js

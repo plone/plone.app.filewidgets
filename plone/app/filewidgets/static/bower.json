@@ -1,0 +1,8 @@
+{
+  "name": "filewidgets",
+  "description": "dependencies",
+  "dependencies": {
+    "imagesloaded": "3.1.8",
+    "Jcrop": "0.9.12"
+  }
+}

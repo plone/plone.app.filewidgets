@@ -1,0 +1,27 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:zcml="http://namespaces.zope.org/zcml">
+
+  <genericsetup:registerProfile
+    name="default"
+    title="plone.app.filewidgets"
+    description=""
+    directory="profiles/default"
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+    />
+
+  <plone:static
+    directory="static"
+    type="plone"
+    name="filewidgets"
+    />
+
+  <adapter factory=".ImageFieldWidget"
+           for="plone.namedfile.interfaces.INamedBlobImageField
+                plone.app.filewidgets.interfaces.ILayer" />
+
+</configure>
